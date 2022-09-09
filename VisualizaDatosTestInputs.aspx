@@ -16,7 +16,7 @@
 <body>
     <div class="card">
         <div class="card-header">
-            <h3>VISUALIZA VARS DE SESSION</h3>
+            <h3>VISUALIZA VARIABLES DE SESSION</h3>
         </div>
         <div class="card-body">
             <form id="formVisualizacion" runat="Server">

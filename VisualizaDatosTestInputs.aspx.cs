@@ -47,6 +47,12 @@ namespace EjemploInputs
                 this.txtComentarios.Text = Session[comentarios].ToString();
         }
 
+        protected override void OnPreRenderComplete(EventArgs e)
+        {
+            this.RadioButtonList1.Enabled = false;
+            base.OnPreRenderComplete(e);
+        }
+
         protected void btnRegresar_Click(object sender, EventArgs e)
         {
 
